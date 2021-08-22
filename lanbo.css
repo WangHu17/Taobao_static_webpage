@@ -1,0 +1,394 @@
+*{ 
+    margin:0;
+    padding:0; 
+}
+a.one
+{
+    z-index: 2;
+    position: absolute;
+    right: 320px;
+    top: 37px;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Verdana,sans-serif;
+    color: white;
+    background-color: gray;
+    transition: background-color 0.5s;
+    width: 40px;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+a.one:hover,a.one:active
+{
+    background-color: gold;
+}
+a.two{
+    z-index: 2;
+    display: block;
+    color: white;
+    text-decoration:none;
+    float: right;
+    margin-right: 20px;
+    margin-top: 35px;
+    target="_blank;"
+}
+a.two:hover{text-decoration:underline;}
+a.two:active{color: red;}
+
+a.three:link,a.three:visited{
+    font-size:14px;
+    display:block;
+    color: white;
+    transition: background-color 1.2s;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+}
+a.three:hover,a.three:active{
+    background-color:gold; 	
+}
+
+a.four{
+    float:left;
+    margin-left: 23px;
+    margin-top: 25px;
+    text-decoration:none;
+    color: white;
+    transition: color 0.3s;
+}
+a.four:hover{
+    color:gray;
+}
+
+a.five{
+    font-size:17px;
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+}
+a.five:hover{
+    border-bottom: 1px solid gold;
+}
+
+a.six{
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+a.seven{
+    color: white;
+    display: block;
+    margin-top: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+a.seven:hover{
+    color: gray;
+}
+
+a.eight:hover{
+    text-decoration: none;
+}
+ul.one{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    position:absolute;
+    top:56px;
+    left:100px;
+    z-index: 2;
+}
+li.one{
+    float: left;
+}
+
+ul.two{
+    list-style-type: none;
+    padding: 0;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index: 2;
+}
+li.two{
+    float: left;
+}
+.content1{
+    overflow: hidden;
+    width: 100%;
+}
+.label{
+    margin-left: 150px;
+    width:265px;
+    height: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gold;
+    font-size: 15px;
+}
+.img1{
+    width: 560px;
+    height: 600px;
+    float: right;
+    margin-top: -33px;
+}
+.content2{
+    overflow: hidden;
+}
+.design{
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 140px;
+}
+.content3{
+    width: 100%;
+    float: left;
+}
+.left-box{
+    width: 21%;
+    float: left;
+}
+.boxs{
+    width: 50%;
+    float: left;
+}
+.boxs:hover{
+    opacity: 0.5;
+}
+.right-picture{
+    width: 79%;
+    height: 667px;
+    float: left;
+}
+div.one{
+    width: 100%;
+    height: 28px;
+    float: left;
+    background-color:gold;
+}
+h3.one{	
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+    float: right;
+    margin-right: 20px;
+}
+div.two{
+    margin: 0;
+    padding: 0;
+    width: 123px;
+    float: left;
+    clear: left;
+}
+div.three{
+    margin-left: 251px;
+}
+.d-w{
+    position: absolute;
+    left: 700px;
+    top: 710px;
+    width: 120px;
+    height: 70px;
+}
+div.d{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 10px;
+    border-top: 2px solid gold;
+}
+div.d#div2{
+    -webkit-transform: rotate(35deg);
+    -webkit-animation: dong1 0.7s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:running;
+}
+@-webkit-keyframes dong1{
+    from{top: 10px;left: 10px;}
+    to{top:20px;left: 10px;}
+}
+div.d#div3{
+    -webkit-transform:rotate(-35deg);
+    -webkit-animation: dong2 0.7s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:running;
+}
+@-webkit-keyframes dong2{
+    from{top: 10px;left: 55px;}
+    to{top:20px;left: 55px;}
+}
+
+div.b{
+    width: 126px;
+    height: 115px;
+    position: absolute;
+    background: #000;
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+div.b:hover{
+    opacity: 0;
+}
+
+.car-type{
+    width: 100%;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.type{
+    position: relative;
+    width: 50%;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+}
+.masterpiece{
+    position: relative;
+    width: 50%;
+    height: 400px;
+    float: right;
+    overflow: hidden;
+}
+.word{
+    position: absolute;
+    left: 47%;
+    top: 170px;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+img.one{
+    width: 100%;
+    height: 400px;
+    -webkit-transition: all 1s;
+}
+img.one:hover{
+    transform: scale(1.1,1.1);
+}
+
+.comfor{
+    width: 100%;
+    height: 530px;
+    background-image: url(images/10.jpg);
+    background-size: 100% 530px;
+    overflow: hidden;
+}
+.comfor-top{
+    width: 100%;
+    padding-left: 390px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.four-boxs{
+    width: 100%;
+    float: left;
+    padding-left: 130px;
+}
+div.four{
+    float: left;
+    width: 240px;
+    margin-left: 66px;
+    margin-top: 30px;
+}
+.attention{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 40px;
+}
+.attention-us{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+.attention>a{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.attention-icon{
+    width: 25px;
+    height: 25px;
+}
+.comfor-bottom{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.bottom{
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 5px 0;
+    opacity: .7;
+}
+
+div.dp{
+    position: fixed;
+    top: 20px;
+    left: 98px;
+    width: 422px;
+    height: 10px;
+    z-index: 2;
+}
+div.dropdown{
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1;
+    top:100px;
+    width: 100%;
+    height: 400px;
+}
+ul.three{
+    list-style-type: none;
+    padding: 0;
+    position:absolute;
+    top:5px;
+    left:110px;
+    width: 300px;
+    z-index: 1;
+}
+li.three{
+    height: 53px; 
+}
+a.nine{
+    color: white;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+div.dp:hover  div.dropdown{
+    display: block;
+}

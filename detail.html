@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米Mix3</title>
+    <link rel="icon" href="images/taobao.png">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./taobao.css">
+	<link rel="stylesheet" href="./detail.css">
+	<link rel="stylesheet" href="./fangda.css">
+</head>
+<body>
+    <div class="wrapper">
+		<div class="content">
+			<ul class="left-ul">
+				<li>
+					<div class="become-white">
+						<a href="#" class="top-word-first">中国大陆</a>
+						<i class="iconfont icon-jiantou"></i>
+					</div>
+				</li>
+				<li><a href="#" class="top-words red-word margin3" >亲，请登录</a></li>
+				<li><a href="#" class="top-words margin1">免费注册</a></li>
+				<li><a href="#" class="top-words">手机逛淘宝</a></li>
+			</ul>
+
+			<ul class="right-ul">
+				<li>
+					<div class="become-white">
+						<a href="#" class="top-box-words margin2">我的淘宝</a>
+						<i class="iconfont icon-jiantou"></i>
+					</div>
+				</li>
+				<li>
+					<i class="iconfont icon-gouwuche"></i>
+					<a href="#" class="top-words">购物车</a>
+					<i class="iconfont icon-jiantou margin4"></i>
+				</li>
+				<li>
+					<div class="become-white become-white1">
+						<i class="iconfont icon-shoucang2"></i>
+						<a href="#" class="top-words">收藏夹</a>
+						<i class="iconfont icon-jiantou"></i>
+					</div>
+				</li>
+				<li>
+					<a href="#" class="top-words margin2">商品分类</a>
+					<span class="string">|</span>
+				</li>
+				<li>
+					<div class="become-white">
+						<a href="#" class="top-words margin2">卖家中心</a>
+						<i class="iconfont icon-jiantou"></i>
+					</div>
+				</li>
+				<li>
+					<div class="become-white">
+						<a href="#" class="top-words margin2">联系客户</a>
+						<i class="iconfont icon-jiantou"></i>
+					</div>
+				</li>
+				<li>
+					<div class="become-white become-white2">
+						<i class="iconfont icon-liebiao"></i>
+						<a href="#" class="top-words top-word-last">网址导航</a>
+						<i class="iconfont icon-jiantou"></i>
+					</div>
+				</li>
+			</ul>
+		</div>
+    </div>
+    
+	<img src="./images/捕获.png" class="top-pic">
+	
+	<div class="container">
+		<div class="left-pic">
+			<div class="big-pic"></div>
+			<div class="small-pic"></div>
+			<div class="small-pic"></div>
+			<div class="small-pic"></div>
+			<div class="small-pic"></div>
+			<div class="small-pic"></div>
+		</div>
+	
+		<div class="right-retail">
+			<p class="retail-title">【享6期免息】Xiaomi/小米 小米MIX 3 滑盖全面屏 年度旗舰骁龙845 智能拍照手机 官方正品</p>
+			<p class="red-word">限时下单立减1000</p>
+			<img src="./images/捕获1.PNG" class="price">
+
+			<div class="option">
+				<div>网络类型<div class="net-type">4G+全网通</div></div>
+				<div>机身颜色<div class="phone-color"><img src="./images/mix3-1.jpg" class="color-img">黑色</div></div>
+				<div>套餐类型<div class="taocan-type">官方标配</div></div>
+				<div>存储容量<div class="capacity">8+128GB</div><div class="capacity">8+256GB</div></div>
+				<div>购买方式<div class="buy-type">裸机</div><div class="buy-type">赠80元权益大礼包</div></div>
+				<div><div class="buy">立即购买</div><div class="trap">加入购物车</div></div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="ad-content">
+		<p class="look">看了又看</p>
+		<img src="./images/ad-1.jpg" class="ad">
+		<img src="./images/ad-2.jpg" class="ad">
+		<img src="./images/ad-3.jpg" class="ad">
+	</div>
+
+	<div class="bottom-ad">
+		<div class="ad-word">广告</div>
+		<a href="./lanbo.html" target="_blank"><img src="./images/lanbo-ad.jpg"></a>
+		<span></span>
+	</div>
+</body>
+<script src="./jquery-3.3.1.js"></script>
+<script>
+	$(function(){
+		$("span").click(function(){
+			$(".bottom-ad").remove();
+		});
+		$(".bottom-ad").stop().slideDown(1000).fadeOut(1000).fadeIn(1000);
+	});
+</script>
+</html>

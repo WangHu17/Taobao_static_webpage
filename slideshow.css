@@ -1,0 +1,83 @@
+.wrapper-lunbo{
+    position: relative;
+    width:520px;
+    height:280px;
+    /* border:1px solid #000; */
+    overflow: hidden;
+    cursor: pointer;
+}
+.wrapper-lunbo ul{
+    position: relative;
+    left:0;
+    top:0;
+    width:2600px;
+    height:100%;
+}
+.wrapper-lunbo .picBox li{
+    display:inline-block;
+    width:520px;
+    height:100%;
+    opacity: 0;
+}
+.wrapper-lunbo .picBox li.first{
+    opacity: 1;
+}
+.wrapper-lunbo li img{
+    width:100%;
+    height:100%;
+}
+
+.wrapper-lunbo .btn{
+    position: absolute;
+    width:520px;
+    height:50px;
+    /* border:1px solid #000; */
+    top:44%;
+    left:0;
+   
+}
+.wrapper-lunbo .btn a{
+    display:block;
+    width:30px;
+    height:50px;
+    background-color:rgba(0,0,0,0.5);
+    color:#fff;
+    font-size:30px;
+    text-align: center;
+    line-height:50px;
+}
+.wrapper-lunbo .btn a.left{
+    float:left;
+}
+
+.wrapper-lunbo .btn a.right{
+    float:right;
+}
+
+.wrapper-lunbo .list{
+    position: absolute;
+    width:520px;
+    height:20px;
+    /* border:1px solid #000; */
+    bottom:10px;
+    left:0;
+}
+
+.wrapper-lunbo .list ul{
+    width:150px;
+    margin-left: 185px;
+}
+
+.wrapper-lunbo .list li{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color:#fff;
+    margin:0 10px;
+    cursor: pointer;
+}
+
+.wrapper-lunbo .list li.active{
+    background-color:red;
+}
